@@ -1,18 +1,8 @@
-# Radix - Machine Learning Challenge
-
-Hiring challenge for the MLE (Machine Learning Engineer), MLD (Machine Learning software Developer), or MLE internship applicants at Radix.
-
-
 ## Introduction 🔖
 
 The goal of this challenge is to build a Machine Learning model to predict the genres of a movie, given its synopsis. Your solution will be evaluated on the performance of your Machine Learning model and on the quality of your code.
 
 To succeed, you must implement a Python package called `challenge`, which exposes an API with two endpoints. Calling the first endpoint (`/genres/train`) should create and train your model on the data provided. Calling the second endpoint (`/genres/predict`) should use the former model to create predictions on the provided synopses and return these results.
-
-You solve the challenge when you reach a final score of:
-* MLE applicants: Total score of 77% or more
-* MLD applicants: Total score of 70% or more, with a code quality score of at least 95%.
-* MLE internship applicants: Total score of 70% or more.
 
 On a high-level, the challenge is divided into three different tasks, each with a corresponding estimated effort:
 
@@ -21,34 +11,6 @@ On a high-level, the challenge is divided into three different tasks, each with 
 3. Create and train your model (4h)
 4. Set up the `/genres/predict` endpoint to create predictions using your trained model (1h)
 5. Improve code quality (30min)
-
-
-
-
-## Getting started 🚀
-
-### GitHub setup
-
-1. Create a [new repository](https://github.com/new)
-   1. Name your repository as `{your-name}-radix-challenge`.
-   2. Make sure the repository is `Private`.
-2. After you created the repository:
-   1. Go to `Settings > Collaborators and teams > Add people` and add `RadixChallenge` (`challenge@radix.ai`) with `Read` permissions so we can follow along with your progress.
-   2. Clone the repository onto your machine.
-3. Once you have the repository local:
-   1. Download the hiring challenge as a [ZIP-file](https://github.com/radix-ai-challenge/radix-mle-challenge/archive/refs/heads/main.zip) and unpack thhis in your cloned repository.
-   2. Push the unzipped folder to GitHub to check if everything works.
-
-### Local setup
-
-Windows users: Please be aware that this challenge relies on bash-scripts that cannot run natively on Windows. However, you can run both the `./init.sh` and `./run.sh` scripts on Windows using [WSL2](https://docs.microsoft.com/en-us/windows/wsl/install-win10).
-
-All users:
-1. Initialise the environment by running `./init.sh`. This will create a virtual environment `.env`. 
-2. To activate this environment, run `source .env/bin/activate`.
-3. Check if everything works properly by running `./run.sh`. This script should halt when calling the training endpoint, since this endpoint is not yet fully implemented.
-
-
 
 ## Creating a solution 🏗
 
@@ -84,7 +46,6 @@ You should implement your code in the `challenge/` folder, where it is not allow
 It is not allowed to change the bash files (`init.sh` and `run.sh`) and the `setup.cfg` file, since these are used to evaluate your solution. The last section addresses these files in more detail, however, it is not required for you to understand these scripts in order to solve the challenge.
 
 
-
 ## Running and scoring of your solution 💯
 
 <details>
@@ -117,11 +78,6 @@ The final score is the geometric mean of two components:
    
 </details>
 
-
-
-## Questions? 🤨
-
-We would love to help you with the challenge, but unfortunately we can't. 😉 That being said, if you find a bug or have troubles setting up your environment, we're happy to help you at [challenge@radix.ai](mailto:challenge@radix.ai)! 
 
 
 
