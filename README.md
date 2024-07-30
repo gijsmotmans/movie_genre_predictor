@@ -76,11 +76,3 @@ The final score is the geometric mean of two components:
    5. A percentage score based on `mypy`
    6. A percentage score based on the actual number of lines of code
    
-</details>
-
-
-
-
-## Good luck! 🤞
-
-![Radix](https://media-exp1.licdn.com/dms/image/C4D0BAQH7Tz0v-I5l1g/company-logo_200_200/0/1569474265425?e=2159024400&v=beta&t=TiThE4sfIokh1WfVN04aM7qgcI__285c2xkE0bEzCtA)
